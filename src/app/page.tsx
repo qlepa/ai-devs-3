@@ -3,6 +3,52 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <header className="w-full max-w-4xl row-start-1">
+        <nav>
+          <ul className="flex justify-between items-center gap-4 text-sm">
+            <li>
+              <a
+                href="/week1"
+                className="hover:text-gray-300 transition-colors"
+              >
+                Tydzień 1
+              </a>
+            </li>
+            <li>
+              <a
+                href="/week2"
+                className="hover:text-gray-300 transition-colors"
+              >
+                Tydzień 2
+              </a>
+            </li>
+            <li>
+              <a
+                href="/week3"
+                className="hover:text-gray-300 transition-colors"
+              >
+                Tydzień 3
+              </a>
+            </li>
+            <li>
+              <a
+                href="/week4"
+                className="hover:text-gray-300 transition-colors"
+              >
+                Tydzień 4
+              </a>
+            </li>
+            <li>
+              <a
+                href="/week5"
+                className="hover:text-gray-300 transition-colors"
+              >
+                Tydzień 5
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
